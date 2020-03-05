@@ -2,13 +2,13 @@ require "pry"
 
 
 def run_guessing_game
- computer_number = rand(6)+1
+
  persons_number = gets.split
  
-  if computer_number == persons_number
+  if rand(6)+1 == persons_number
     puts "You guessed the correct number!"
-  elsif computer_number != persons_number
-    puts "Sorry! The computer guessed #{computer_number}."
+  elsif rand(6)+1 != persons_number
+    puts "Sorry! The computer guessed #{rand(6)+1}."
   else persons_number == "exit"
     puts "Goodbye!"
   end
