@@ -2,6 +2,7 @@ require "pry"
 
 
 def run_guessing_game(array)
+  array 
  computer_number = rand(6)+1
  persons_number = gets.split
  
