@@ -1,7 +1,6 @@
 require "pry"
 
 
-def run_guessing_game(number)
-  number
+def run_guessing_game
 binding.pry
 end
