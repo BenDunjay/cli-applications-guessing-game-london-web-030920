@@ -1,10 +1,9 @@
 require "pry"
 
 
-def run_guessing_game(array)
-  array 
+def run_guessing_game(number)
  computer_number = rand(6)+1
- persons_number = gets.split
+ persons_number = number
  
   if computer_number == persons_number
     puts "You guessed the correct number!"
