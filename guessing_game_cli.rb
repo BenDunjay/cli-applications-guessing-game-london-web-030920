@@ -9,7 +9,7 @@ def run_guessing_game
  persons_number = gets.split
   if computer_number != persons_number
     puts "Sorry! The computer guessed #{computer_number}."
-   elsif computer_number == persons_number
+   elsif computer_number === persons_number
     puts "You guessed the correct number!"
   else persons_number == "exit"
     puts "Goodbye!"
