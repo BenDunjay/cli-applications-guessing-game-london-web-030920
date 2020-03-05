@@ -2,7 +2,7 @@
 require "pry"
 
 def run_guessing_game
-  rand(1..6)
-  binding.pry
+  rand(6)+1
+binding.pry
   
 end
