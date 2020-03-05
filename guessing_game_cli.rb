@@ -5,7 +5,6 @@ require "pry"
 
 
 def run_guessing_game
-   binding.pry
  computer_number = rand(6)+1
  persons_number = gets.split
   if computer_number == persons_number
