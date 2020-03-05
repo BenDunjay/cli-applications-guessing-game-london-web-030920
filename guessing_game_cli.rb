@@ -4,7 +4,7 @@ require "pry"
 def run_guessing_game
    
  
- computer_number = rand(6)
+ computer_number = rand(6)+1
  persons_number = gets.chomp
  
   if persons_number == computer_number
@@ -14,4 +14,5 @@ def run_guessing_game
   else persons_number == "exit"
     puts "Goodbye!"
   end
+  persons_number
 end
