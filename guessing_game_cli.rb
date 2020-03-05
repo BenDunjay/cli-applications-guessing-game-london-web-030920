@@ -4,7 +4,7 @@ require "pry"
 def run_guessing_game
    
  
- computer_number = rand(6)+1
+ computer_number = rand(6)
  persons_number = gets.chomp
  
   if persons_number == computer_number
