@@ -1,9 +1,6 @@
 require "pry"
 
 
-
-
-
 def run_guessing_game
  computer_number = rand(6)+1
  persons_number = gets.split
@@ -14,5 +11,4 @@ def run_guessing_game
   else persons_number == "exit"
     puts "Goodbye!"
   end
-  binding.pry
 end
