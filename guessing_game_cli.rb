@@ -14,5 +14,4 @@ def run_guessing_game
   else persons_number == "exit"
     puts "Goodbye!"
   end
-  computer_number
 end
